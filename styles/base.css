@@ -1,0 +1,48 @@
+/* @import url("https://cloud.typography.com/7471816/7851232/css/fonts.css"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @media (min-width: 1280px) {
+    ::-webkit-scrollbar {
+      width: 14px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #000;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      border: 4px solid rgba(0, 0, 0);
+      background-clip: padding-box;
+
+      background-color: #555;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      /* background: #555; */
+    }
+  }
+
+  .bodyFont {
+    font-family: "Prociono", serif;
+  }
+
+  .btn {
+    @apply bg-primary text-textPrimary text-base md:text-lg py-3 px-9  cursor-pointer inline-block rounded-full hover:scale-105 transition duration-150 ease-in;
+  }
+  .btn-sm {
+    @apply bg-primary text-textPrimary text-sm md:text-base py-3 px-8  cursor-pointer inline-block rounded-full hover:scale-110 transition duration-150 ease-in;
+  }
+  .btn-outlined {
+    @apply bg-textPrimary  border border-primary text-primary text-base md:text-lg py-3 px-9  cursor-pointer inline-block rounded-full hover:scale-105 transition duration-150 ease-in;
+  }
+  .btn-outlined-tp {
+    @apply bg-transparent  border border-primary text-primary text-base md:text-lg py-3 px-9  cursor-pointer inline-block rounded-full hover:scale-105 transition duration-150 ease-in;
+  }
+}
