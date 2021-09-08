@@ -41,18 +41,18 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
           />
         </span>
       </div>
-      <div className="absolute left-8 h-full flex items-center">
-        <span className="cursor-pointer">
+      <div className="absolute left-2 xl:left-8 h-full flex items-center z-10">
+        <span className="cursor-pointer rounded-full h-16 w-16 flex justify-center items-center bg-textPrimary bg-opacity-50">
           <BackIcon className="h-8 w-8" onClick={handleBack} />
         </span>
       </div>
-      <div className="absolute right-8 h-full flex items-center">
-        <span className="cursor-pointer">
+      <div className="absolute right-2 xl:right-8 h-full flex items-center z-10">
+        <span className="cursor-pointer rounded-full h-16 w-16 flex justify-center items-center bg-textPrimary bg-opacity-50">
           <NextIcon className="h-8 w-8" onClick={handleNext} />
         </span>
       </div>
       <div
-        className="absolute inset-y-20 inset-x-32 bg-cover bg-no-repeat select-none"
+        className="absolute inset-y-20 inset-x-0 xl:inset-x-32 bg-center  xl:bg-cover bg-no-repeat select-none"
         style={{
           backgroundImage: `url(${gallery[modalIndex].picture.xs})`,
         }}
@@ -62,7 +62,7 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
           sizes="(min-width: 768px)50vw ,(min-width: 1024px) 33vw ,(min-width: 1536px) 25vw, 100vw"
           srcSet={getPictureSrcSet(gallery[modalIndex].picture)}
           alt="Sample Image Alt"
-          className="object-cover w-full h-full"
+          className="object-contain xl:object-cover w-full h-full"
         />
       </div>
     </div>
