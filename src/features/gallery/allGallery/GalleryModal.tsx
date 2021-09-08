@@ -52,7 +52,7 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
         </span>
       </div>
       <div
-        className="absolute inset-y-20 inset-x-32 bg-cover bg-no-repeat"
+        className="absolute inset-y-20 inset-x-32 bg-cover bg-no-repeat select-none"
         style={{
           backgroundImage: `url(${gallery[modalIndex].picture.xs})`,
         }}
