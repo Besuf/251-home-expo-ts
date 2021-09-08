@@ -53,9 +53,9 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
       </div>
       <div
         className="absolute inset-y-20 inset-x-0 xl:inset-x-32 bg-center  xl:bg-cover bg-no-repeat select-none"
-        style={{
-          backgroundImage: `url(${gallery[modalIndex].picture.xs})`,
-        }}
+        // style={{
+        //   backgroundImage: `url(${gallery[modalIndex].picture.xs})`,
+        // }}
       >
         <LazyImage
           src={gallery[modalIndex].picture.sm}
