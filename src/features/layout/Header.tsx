@@ -19,7 +19,10 @@ const Header = () => {
       window.onscroll = function () {
         const currentScrollPos = window.pageYOffset;
         const navEl = document.getElementById("navbar");
-        if (prevScrollpos > currentScrollPos && navEl) {
+        if (
+          (prevScrollpos > currentScrollPos || currentScrollPos === 0) &&
+          navEl
+        ) {
           if (currentScrollPos === 0) {
             navEl.style.background =
               "linear-gradient(180deg, rgba(0, 0, 0, 0.385) 23.96%, rgba(0, 0, 0, 0.014) 100%)";
