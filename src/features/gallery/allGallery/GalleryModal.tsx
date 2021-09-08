@@ -52,10 +52,10 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
         </span>
       </div>
       <div
-        className="absolute inset-y-20 inset-x-0 xl:inset-x-32 bg-center  xl:bg-cover bg-no-repeat select-none"
-        // style={{
-        //   backgroundImage: `url(${gallery[modalIndex].picture.xs})`,
-        // }}
+        className="absolute inset-y-20 inset-x-0 xl:inset-x-32 bg-center bg-no-repeat select-none"
+        style={{
+          backgroundImage: `url(/loading.gif)`,
+        }}
       >
         <LazyImage
           src={gallery[modalIndex].picture.sm}
