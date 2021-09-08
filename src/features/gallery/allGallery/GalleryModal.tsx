@@ -59,7 +59,7 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
       >
         <LazyImage
           src={gallery[modalIndex].picture.sm}
-          sizes="(min-width: 768px)50vw ,(min-width: 1024px) 33vw ,(min-width: 1536px) 25vw, 100vw"
+          sizes="(min-width: 768px)100vw"
           srcSet={getPictureSrcSet(gallery[modalIndex].picture)}
           alt="Sample Image Alt"
           className="object-contain xl:object-cover w-full h-full"
