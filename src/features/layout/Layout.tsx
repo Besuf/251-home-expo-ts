@@ -13,13 +13,13 @@ const Layout: React.FC<LayoutProps> = (props) => {
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.4 }}
-      className="flex min-h-screen flex-col relative text-white "
+      className="flex min-h-screen flex-col relative text-white bg-textPrimary"
     >
       <div className="flex-grow">
         <header>
           <Header />
         </header>
-        <main className="z-10">{props.children}</main>
+        <main className="z-10 bg-textPrimary">{props.children}</main>
       </div>
 
       <footer className="z-20 bg-black">

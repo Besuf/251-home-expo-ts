@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 @layer utilities {
+  body {
+    @apply bg-black;
+  }
   @media (min-width: 1280px) {
     ::-webkit-scrollbar {
       width: 14px;

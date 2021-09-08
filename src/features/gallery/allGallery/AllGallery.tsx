@@ -5,6 +5,7 @@ import { shuffleArray } from "lib/arrayLib";
 import ImageSlice from "./ImageSlice";
 import { AnimatePresence, motion } from "framer-motion";
 import GalleryModal from "./GalleryModal";
+import ScrollDisable from "components/shared/ScrollDisable";
 
 const tabs = ["All", "Apartment", "Villa", "Furniture", "Kitchen", "Other"];
 
@@ -101,6 +102,7 @@ const AllGallery = () => {
             exit={{ opacity: 0 }}
             className="fixed z-20 bg-[#080808] bg-opacity-90 inset-0"
           >
+            <ScrollDisable />
             <GalleryModal
               handleModalIndex={handleModalIndex}
               gallery={galleryState}

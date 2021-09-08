@@ -9,6 +9,7 @@ import DarkCloseIcon from "components/icons/DarkCloseIcon";
 import DarkFacebook from "components/icons/DarkFacebook";
 import DarkTwitter from "components/icons/DarkTwitter";
 import DarkInstagram from "components/icons/DarkInstagram";
+import ScrollDisable from "components/shared/ScrollDisable";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -91,7 +92,9 @@ const Header = () => {
       </div>
 
       {openMenu && (
-        <div className="fixed inset-0 bg-textPrimary bg-opacity-50"></div>
+        <div className="fixed inset-0 bg-textPrimary bg-opacity-50">
+          <ScrollDisable />
+        </div>
       )}
       {openMenu && (
         <div className="fixed inset-y-0 bg-primary bg-opacity-90  w-full md:w-[400px] md:right-0  lg:left-0  text-textPrimary p-8">
