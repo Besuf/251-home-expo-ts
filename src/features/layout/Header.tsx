@@ -44,7 +44,7 @@ const Header = () => {
     setOpenMenu(!openMenu);
   };
   let mediaMatch = false;
-  if (typeof window !== undefined)
+  if (process.browser && typeof window !== undefined)
     mediaMatch = window.matchMedia("(min-width: 1024px)").matches;
 
   return (
