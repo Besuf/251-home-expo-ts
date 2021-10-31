@@ -7,7 +7,6 @@ import type { AppProps } from "next/app";
 import { Fragment } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  console.log("nadas");
   return (
     <Fragment>
       <NextNprogress
