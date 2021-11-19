@@ -3,12 +3,13 @@ import LazyImage from "components/shared/LazyImage";
 import { getPictureSrcSet } from "lib/image";
 import NextLink from "next/link";
 import Count from "./Count";
+import Image from "next/image";
 
 const bannerPic = {
-  xs: "/images/banner/banner-low.jpg",
-  sm: "/images/banner/banner-1x.jpg",
-  md: "/images/banner/banner-2x.jpg",
-  lg: "/images/banner/banner-3x.jpg",
+  xs: "/images/banner/home-low.jpg",
+  sm: "/images/banner/home-1x.jpg",
+  md: "/images/banner/home-2x.jpg",
+  lg: "/images/banner/home-3x.jpg",
 };
 
 const Banner = () => {
@@ -30,18 +31,32 @@ const Banner = () => {
       </div>
       <div
         className="absolute min-h-screen inset-0"
-        style={{ background: "rgba(16, 24, 32, 0.7)" }}
+        style={{ background: "rgba(0, 0, 0, 0.6)" }}
       ></div>
-      <div className="px-10 md:px-24 py-[200px] md:py-[350px] xl:py-[200px] 2xl:py-[225px] relative bg-opacity-0">
+      <div className="px-10 md:px-24 py-[200px] md:py-[350px] xl:py-[100px] relative bg-opacity-0 ">
+        <div className="flex justify-center">
+          <div className="w-[250px] h-[150px] md:w-[400px] md:h-[200px]  relative">
+            <Image
+              src="/images/fourth.png"
+              alt="fourth logo illustration"
+              layout="fill"
+              objectFit="contain"
+            />
+          </div>
+        </div>
+
         <h1 className="text-2xl md:text-4xl text-center">
           ET REAL-ESTATE HOME EXPO
         </h1>
         <div className="flex w-full justify-center mt-7">
           <div className="w-auto md:w-4/5 lg:w-1/2">
-            <h2 className="text-base md:text-lg text-center ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse ac efficitur diam. In sagittis eros in est convallis,
-              at tristique leo condimentum.
+            <h2
+              className="text-base md:text-lg text-center "
+              style={{ lineHeight: "28px" }}
+            >
+              Your one-stop destination to fulfill your housing and furnishing
+              needs. Bringing the biggest real estate and home-accessories
+              companies in the country under one roof.
             </h2>
           </div>
         </div>

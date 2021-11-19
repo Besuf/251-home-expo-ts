@@ -15,15 +15,11 @@ const ImageSlice: React.FC<ImageSliceProps> = (props) => {
   const { img, index, handleModalIndex } = props;
   const [hovered, setHovered] = useState(false);
 
-  const toggleHover = () => {
-    setHovered(!hovered);
-  };
-
   return (
     <div
       onClick={() => handleModalIndex(index)}
-      onMouseEnter={toggleHover}
-      onMouseLeave={toggleHover}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
       className="h-64 md:h-56 xl:h-72 relative  bg-no-repeat bg-cover cursor-pointer"
       style={{
         backgroundImage: `url(${img.picture.xs})`,
@@ -43,7 +39,7 @@ const ImageSlice: React.FC<ImageSliceProps> = (props) => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 z-10 bg-textPrimary bg-opacity-70 grid place-items-center"
+            className="absolute inset-0 z-10 bg-black bg-opacity-70 grid place-items-center"
           >
             <span>
               <ZoomIcon />

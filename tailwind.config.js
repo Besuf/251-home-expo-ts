@@ -19,7 +19,7 @@ module.exports = {
         textPrimary: "#101820",
       },
       fontFamily: {
-        sans: ["Prociono", "serif"],
+        sans: ["Open Sans", "sans-serif"],
       },
       maxWidth: {
         xxs: "20vw",

@@ -3,7 +3,7 @@ import ExihibitorCarousel from "./exhibitorCarousel/ExihibitorCarousel";
 
 const Exhibitors = () => {
   return (
-    <div className="px-10 md:px-24 lg:px-28 xl:px-32 py-28 lg:py-36 bg-textPrimary">
+    <div className="px-10 md:px-24 lg:px-28 xl:px-32 py-28 lg:py-36 bg-black">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="w-full">
           <div className="flex w-full justify-end">
@@ -13,11 +13,10 @@ const Exhibitors = () => {
             </h3>
           </div>
           <p className="mt-14 text-right">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            interdum placerat dolor ac mattis. In ornare pharetra sagittis.
-            Maecenas dolor tellus, ornare sed nulla non, eleifend vulputate
-            lacus. In sit amet accumsan lorem. Donec massa ipsum, vulputate in
-            imperdiet vel, molestie aliquam orci.
+            Our exhibitors are the leading Real estate and home appliance firms
+            in the country. Catering to you with a diverse set of options,
+            making it easy for you to fulfill your property and home accessory
+            needs.
           </p>
         </div>
 

@@ -27,11 +27,11 @@ const ExihibitorCarousel = () => {
   };
 
   return (
-    <div className="w-full h-full relative px-9 ">
+    <div className="w-full h-full relative bg-black px-9 ">
       <Slider className="h-full w-full" {...settings}>
         <div className="w-full h-96  md:h-72  px-3">
           <div className="h-full  grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/AyatLogo.svg"
                 layout="fill"
@@ -39,7 +39,7 @@ const ExihibitorCarousel = () => {
                 alt="Ayat RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/FlintLogo.svg"
                 layout="fill"
@@ -47,7 +47,7 @@ const ExihibitorCarousel = () => {
                 alt="Flintstone Homes RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/MetroLogo.svg"
                 layout="fill"
@@ -55,7 +55,7 @@ const ExihibitorCarousel = () => {
                 alt="Metropolitian RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/AyatLogo.svg"
                 layout="fill"
@@ -67,7 +67,7 @@ const ExihibitorCarousel = () => {
         </div>
         <div className="w-full  h-96  md:h-72  px-3">
           <div className="h-full  grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/MetroLogo.svg"
                 layout="fill"
@@ -75,7 +75,7 @@ const ExihibitorCarousel = () => {
                 alt="Metropolitian RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/AyatLogo.svg"
                 layout="fill"
@@ -83,7 +83,7 @@ const ExihibitorCarousel = () => {
                 alt="Ayat RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/FlintLogo.svg"
                 layout="fill"
@@ -91,7 +91,7 @@ const ExihibitorCarousel = () => {
                 alt="Flintstone Homes RealEstate Logo"
               />
             </div>
-            <div className="h-full relative">
+            <div className="h-full relative bg-black">
               <Image
                 src="/images/partners/AyatLogo.svg"
                 layout="fill"

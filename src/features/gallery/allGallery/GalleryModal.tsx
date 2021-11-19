@@ -32,7 +32,7 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
   };
 
   return (
-    <div className="absolute inset-0">
+    <div className="fixed z-40 inset-0">
       <div className="absolute top-6 w-full flex justify-center">
         <span className="cursor-pointer">
           <CloseIcon
@@ -63,7 +63,7 @@ const GalleryModal: React.FC<GalleryModalProps> = (props) => {
           sizes="(min-width: 768px)100vw"
           srcSet={getPictureSrcSet(gallery[modalIndex].picture)}
           alt="Sample Image Alt"
-          className="object-contain xl:object-cover w-full h-full"
+          className="object-contain  w-full h-full"
         />
       </div>
     </div>

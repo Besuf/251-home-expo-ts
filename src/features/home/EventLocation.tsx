@@ -34,14 +34,14 @@ const EventLocation = () => {
             "linear-gradient(270.03deg, rgba(0, 0, 0, 0.4) 0.02%, rgba(196, 196, 196, 0) 47.92%, rgba(0, 0, 0, 0.4) 99.98%)",
         }}
       ></div>
-      <div className="absolute right-0 bottom-0 w-full md:w-[600px] px-10  md:px-16 py-16 bg-textPrimary bg-opacity-90">
+      <div className="absolute right-0 bottom-0 w-full md:w-[600px] px-10  md:px-16 py-16 bg-black bg-opacity-90">
         <div className="flex">
           <h4 className="text-3xl pb-2 border-b-2 border-primary">Location</h4>
         </div>
         <div className="flex flex-col mt-12 gap-5">
           <div className="flex items-center gap-5">
             <LocationIcon />
-            <span className="text-lg">Ethiopian Skylight Hotel</span>
+            <span className="text-lg">Ethiopian Hilton Hotel</span>
           </div>
           <div className="flex items-center gap-5">
             <TimerIcon />

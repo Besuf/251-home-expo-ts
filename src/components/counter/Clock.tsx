@@ -46,7 +46,7 @@ const Clock: React.FC<ClockProps> = (props) => {
   }, [props.deadline]);
 
   return (
-    <div className="flex px-6 md:px-12 py-2 bg-textPrimary bg-opacity-70 text-2xl md:text-5xl tracking-wider gap-7">
+    <div className="flex px-6 md:px-12 py-2 bg-black bg-opacity-30 text-2xl md:text-5xl tracking-wider gap-7">
       <div className="grid place-items-center gap-2">
         <div className="tracking-widest"> {leading0(dateTime.days)} </div>
         <div className="text-sm">Days</div>

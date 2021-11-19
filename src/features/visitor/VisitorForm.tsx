@@ -2,7 +2,7 @@ import React from "react";
 
 const VisitorForm = () => {
   return (
-    <div className="min-h-[800px] bg-textPrimary relative px-10 md:px-24 lg:px-28 xl:px-32 pt-[200px] lg:pt-[250px] xl:pt-[200px] 2xl:pt-[225px] pb-24">
+    <div className="min-h-[800px] bg-black relative px-10 md:px-24 lg:px-28 xl:px-32 pt-[120px] lg:pt-[170px] pb-24">
       <h1 className="text-2xl md:text-4xl text-center">
         {`Don't Miss The Event`}
       </h1>
@@ -12,25 +12,25 @@ const VisitorForm = () => {
             <div>
               <label className="block">
                 <span className="text-xl">First Name</span>
-                <input className="form-input w-full  bg-textPrimary border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
+                <input className="form-input w-full  bg-black border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
               </label>
             </div>
             <div>
               <label className="block">
                 <span className="text-xl">Last Name</span>
-                <input className="form-input w-full  bg-textPrimary border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
+                <input className="form-input w-full  bg-black border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
               </label>
             </div>
             <div>
               <label className="block">
                 <span className="text-xl">Email</span>
-                <input className="form-input w-full  bg-textPrimary border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
+                <input className="form-input w-full  bg-black border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
               </label>
             </div>
             <div>
               <label className="block">
                 <span className="text-xl">Phone Number</span>
-                <input className="form-input w-full  bg-textPrimary border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
+                <input className="form-input w-full  bg-black border-0 focus:ring-0 border-b-2 border-gray-600 focus:border-gray-300 px-0.5 transition duration-200 ease-in" />
               </label>
             </div>
           </div>

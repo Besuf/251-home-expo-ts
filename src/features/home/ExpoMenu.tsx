@@ -40,23 +40,19 @@ const ExpoMenu = () => {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(16, 24, 32, 0.7) 3.65%, rgba(16, 24, 32, 0) 100%)",
+              "linear-gradient(180deg, rgba(16, 24, 32, 0.7) 15.65%, rgba(16, 24, 32, 0) 100%)",
           }}
         ></div>
         <div className="grid place-items-center px-10  py-14  md:px-20 lg:px-24 xl:px-36 2xl:px-64 relative min-h-full">
           <div>
-            <h4 className="text-center text-xl"> Luxury Furnitures</h4>
+            <h4 className="text-center text-xl font-semibold">
+              {" "}
+              Luxury Furnitures
+            </h4>
             <p className="text-sm md:text-base text-center mt-2">
-              Donec condimentum arcu mattis nunc dapibus maximus. Nunc maximus
-              urna risus, a porta libero mattis suscipit.
+              Looking to spruce up your house or make the finishing details of
+              your home,
             </p>
-            <div className="flex justify-center">
-              <NextLink href="/gallery?category=Furniture">
-                <a>
-                  <button className="mt-8 md:mt-14 btn-sm">View Gallery</button>
-                </a>
-              </NextLink>
-            </div>
           </div>
         </div>
       </div>
@@ -79,23 +75,18 @@ const ExpoMenu = () => {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(16, 24, 32, 0.7) 3.65%, rgba(16, 24, 32, 0) 100%)",
+              "linear-gradient(180deg, rgba(16, 24, 32, 0.7) 15.65%, rgba(16, 24, 32, 0) 100%)",
           }}
         ></div>
         <div className="grid place-items-center px-10 py-14 md:py-0 md:px-20 lg:px-24 xl:px-36 2xl:px-64 relative min-h-full">
           <div>
-            <h4 className="text-center text-xl"> Villas &amp; Apartments</h4>
+            <h4 className="text-center text-xl font-semibold">
+              {" "}
+              Villas &amp; Apartments
+            </h4>
             <p className="text-sm md:text-base text-center mt-2">
-              Donec condimentum arcu mattis nunc dapibus maximus. Nunc maximus
-              urna risus, a porta libero mattis suscipit.
+              Discover and find your dream house.
             </p>
-            <div className="flex justify-center">
-              <NextLink href="/gallery?category=Villa">
-                <a>
-                  <button className="mt-8 md:mt-14 btn-sm">View Gallery</button>
-                </a>
-              </NextLink>
-            </div>
           </div>
         </div>
       </div>
